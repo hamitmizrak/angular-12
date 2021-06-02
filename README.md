@@ -1,6 +1,21 @@
 # BlogApp
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.0.2.
+## typescript
+npm i -g typescript
+
+## angular cli
+npm i -g @angular/cli
+
+## angular projesi
+ng new blog-app
+cd blog-app
+ng serve --open
+npm install 
+
+## nodemon
+npm i -g nodemon
+nodemon typescript-001-tsTojs.ts
+nodemon -h
 
 ## Development server
 
@@ -8,12 +23,4 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 
 ````
 Writer Hamit Mızrak
-## Developer notes
-npm i -g typescript
-npm i -g @angular/cli
-ng new blog-app
-cd blog-app
-ng serve --open
-
-npm install 
 
