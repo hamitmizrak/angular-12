@@ -7,6 +7,9 @@ sayi="Malatya";
 sayi=true;
 sayi=44.44;
 
+var sayi6;
+sayi6=null;
+
 
 //diziler
 var deneme=[]; //normal javascript
