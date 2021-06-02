@@ -9,7 +9,7 @@ sayi=44.44;
 
 
 //diziler
-var deneme=[];
+var deneme=[]; //normal javascript
 let dizi:string[]=["Malatya","Darende","Battalgazi","Yeşilyurt"]
 let dizi2:number[]=[4,6,9];
 
