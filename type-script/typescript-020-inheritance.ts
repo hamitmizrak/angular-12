@@ -43,7 +43,7 @@ console.log(kemanSinifi.tel);
 
 
 
-
+///////////////////////////////////////////
 
 
 class KemanVL75 extends Keman{
