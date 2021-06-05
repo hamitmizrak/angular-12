@@ -17,7 +17,9 @@ npm i -g nodemon
 nodemon typescript-001-tsTojs.ts
 nodemon -h
 
-
+## create component
+ng generate component componentAdi
+ng g component componentAdi
 ## Development server
 
 ````

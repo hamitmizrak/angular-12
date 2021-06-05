@@ -1,0 +1,6 @@
+div ul li{
+    width: 50%;
+    min-height:50px ;
+    background-color: black;
+    color: bisque;
+}
