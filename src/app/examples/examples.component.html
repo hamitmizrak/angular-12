@@ -1,0 +1,38 @@
+
+
+<span *ngIf="computer.length>0 else result55">
+<div *ngFor="let takmaAd of computer">
+    <div class="container">
+        <div class="rov">
+            <div class="col-md-6"></div>
+            <div class="col-md-6">
+                <div  class="alert alert-danger" role="alert">{{takmaAd}}</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</span>
+
+<ng-template #result55>
+    <div  class="alert alert-secondary" role="alert">{{productResult}}</div>
+</ng-template>
+
+
+
+
+
+
+
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<p  *ngIf="sayi66>=50">Sayı {{sayi66}} veya üstünde</p>
+
+<h1 *ngIf="sayi77>=77 else result" >{{sayi77}} Sayısı 77 eşittir veya büyüktür</h1>
+
+<ng-template #result>
+<div class="alert alert-primary" role="alert">{{sayi77}} Sayısı 77  küçüktür</div>
+</ng-template>
