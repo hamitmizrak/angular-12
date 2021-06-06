@@ -1,21 +1,58 @@
+<hr>
+<hr>
+<hr>
 
-
-<span *ngIf="computer.length>0 else result55">
-<div *ngFor="let takmaAd of computer">
-    <div class="container">
-        <div class="rov">
-            <div class="col-md-6"></div>
-            <div class="col-md-6">
-                <div  class="alert alert-danger" role="alert">{{takmaAd}}</div>
-            </div>
-        </div>
+<div class="container">
+  <div class="row">
+    <div class="col-md-2">
+        <button (click)="click1()" class="btn btn-outline-primary">Tıkla-1</button>
     </div>
+
+    <div class="col-md-2">
+        <a (click)="click2()" class="btn btn-danger">Tıkla-2</a>
+    </div>
+
+    <div class="col-md-2">
+        <a (click)="click3()" class="btn btn-secondary">Tıkla-3</a>
+    </div>
+
+
+    <div class="col-md-2">
+        <a (click)="click4()" class="btn btn-success">Tıkla-4</a>
+    </div>
+
+    <div class="col-md-2">
+        <a (click)="click5()" class="btn btn-info bg-dark text-primary">Tıkla-5</a>
+    </div>
+
+    <div class="col-md-12 mt-5">
+        <input class="form-control" (click)="data($event)" value="isim" />
+    </div>
+  
+
+  </div>
 </div>
+
+
+<hr>
+<hr>
+<hr>
+<span *ngIf="computer.length>0 else result55">
+  <div *ngFor="let takmaAd of computer">
+    <div class="container">
+      <div class="rov">
+        <div class="col-md-6"></div>
+        <div class="col-md-6">
+          <div class="alert alert-danger" role="alert">{{takmaAd}}</div>
+        </div>
+      </div>
+    </div>
+  </div>
 
 </span>
 
 <ng-template #result55>
-    <div  class="alert alert-secondary" role="alert">{{productResult}}</div>
+  <div class="alert alert-secondary" role="alert">{{productResult}}</div>
 </ng-template>
 
 
@@ -29,10 +66,10 @@
 <hr>
 <hr>
 <hr>
-<p  *ngIf="sayi66>=50">Sayı {{sayi66}} veya üstünde</p>
+<p *ngIf="sayi66>=50">Sayı {{sayi66}} veya üstünde</p>
 
-<h1 *ngIf="sayi77>=77 else result" >{{sayi77}} Sayısı 77 eşittir veya büyüktür</h1>
+<h1 *ngIf="sayi77>=77 else result">{{sayi77}} Sayısı 77 eşittir veya büyüktür</h1>
 
 <ng-template #result>
-<div class="alert alert-primary" role="alert">{{sayi77}} Sayısı 77  küçüktür</div>
+  <div class="alert alert-primary" role="alert">{{sayi77}} Sayısı 77 küçüktür</div>
 </ng-template>
