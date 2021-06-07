@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+declare let alertify:any;
 
 @Component({
   selector: 'app-oneway',
@@ -7,7 +8,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class OnewayComponent implements OnInit {
 
-  adi="Java EE";
+  //1-)string interpolation
+  adi:string="string interpolation binding";
+
+  //2-)property binding"
+  htmlContent:string="property binding";
+
+  
 
   constructor() { }
 
