@@ -14,7 +14,22 @@ export class OnewayComponent implements OnInit {
   //2-)property binding"
   htmlContent:string="property binding";
 
-  
+  //3-)event binding"
+  ekle(){
+    alert("eklendi");
+  }
+  ekle2(){
+    alert("eklendi");
+  }
+
+  ekle3(){
+    alert("eklendi");
+  }
+
+  ekle4(){
+    alert("eklendi");
+    alertify.success("ekleme başarılı");
+  }
 
   constructor() { }
 
