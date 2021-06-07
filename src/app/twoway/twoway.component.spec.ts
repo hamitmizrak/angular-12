@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { PipeComponent } from './pipe.component';
+import { TwowayComponent } from './twoway.component';
 
-describe('PipeComponent', () => {
-  let component: PipeComponent;
-  let fixture: ComponentFixture<PipeComponent>;
+describe('TwowayComponent', () => {
+  let component: TwowayComponent;
+  let fixture: ComponentFixture<TwowayComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ PipeComponent ]
+      declarations: [ TwowayComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(PipeComponent);
+    fixture = TestBed.createComponent(TwowayComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
