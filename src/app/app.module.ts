@@ -13,6 +13,8 @@ import { TwowayComponent } from './twoway/twoway.component';
 import { PipeComponent } from './pipe/pipe.component';
 import { CustomPipeComponent } from './custom-pipe/custom-pipe.component';
 import { ReturnvaluePipe } from './custom-pipe/returnvalue.pipe';
+import { SearchTextPipe } from './custom-pipe/search-text.pipe';
+import { LowerTextPipe } from './custom-pipe/lower-text.pipe';
 
 
 
@@ -29,7 +31,9 @@ import { ReturnvaluePipe } from './custom-pipe/returnvalue.pipe';
     TwowayComponent,
     PipeComponent,
     CustomPipeComponent,
-    ReturnvaluePipe
+    ReturnvaluePipe,
+    SearchTextPipe,
+    LowerTextPipe
     
   ],
   imports: [

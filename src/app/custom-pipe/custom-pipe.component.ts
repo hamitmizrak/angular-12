@@ -10,6 +10,11 @@ export class CustomPipeComponent implements OnInit {
 
   inputdegiskeni:string="default";
 
+  //custom pipe
+  forTextData:string="";
+  dizi:any[]=["Hamit","Mızrak","Malatya"
+  ]
+
   constructor() { }
 
   ngOnInit(): void {

@@ -1,3 +1,30 @@
-<input type="text" [(ngModel)]="inputdegiskeni" />
+<div style="margin-left:5%">
+  <div class=" col-md-12">
+    <input type="text" placeholder="arama için yazınız ..." class="form-control" [(ngModel)]="forTextData" />
+    <span class="text-muted">{{forTextData | lowerText}}</span>
+  </div>
+  <table class="table table-hover table-striped table-responsive">
+    <thead>
+      <tr>
+        <th>Adı</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let takmaAd of dizi | searchText:forTextData">
+        <td>{{takmaAd}}</td>
+      </tr>
 
+
+
+    </tbody>
+  </table>
+
+</div>
+
+
+
+
+<hr>
+<hr>
+<input type="text" [(ngModel)]="inputdegiskeni" />
 {{inputdegiskeni | returnvalue | uppercase }}
