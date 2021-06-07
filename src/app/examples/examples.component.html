@@ -1,34 +1,32 @@
 <hr>
 <hr>
-<hr>
-
 <div class="container">
   <div class="row">
     <div class="col-md-2">
-        <button (dblclick)="click1()" class="btn btn-outline-primary">Tıkla-1</button>
+      <button (dblclick)="click1()" class="btn btn-outline-primary">Tıkla-1</button>
     </div>
 
     <div class="col-md-2">
-        <a (click)="click2()" class="btn btn-danger">Tıkla-2</a>
+      <a (mouseover)="click2()" class="btn btn-danger">Tıkla-2</a>
     </div>
 
     <div class="col-md-2">
-        <a (click)="click3()" class="btn btn-secondary">Tıkla-3</a>
+      <a (click)="click3()" class="btn btn-secondary">Tıkla-3</a>
     </div>
 
 
     <div class="col-md-2">
-        <a (click)="click4()" class="btn btn-success">Tıkla-4</a>
+      <a (click)="click4()" class="btn btn-success">Tıkla-4</a>
     </div>
 
     <div class="col-md-2">
-        <a (click)="click5()" class="btn btn-info bg-dark text-primary">Tıkla-5</a>
+      <a (click)="click5()" class="btn btn-info bg-dark text-primary">Tıkla-5</a>
     </div>
 
     <div class="col-md-12 mt-5">
-        <input class="form-control" (click)="data($event)" value="isim" />
+      <input class="form-control" (click)="data($event)" value="isim" />
     </div>
-  
+
 
   </div>
 </div>

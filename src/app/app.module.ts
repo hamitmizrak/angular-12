@@ -7,6 +7,7 @@ import { HeaderComponent } from './header/header.component';
 import { MainComponent } from './main/main.component';
 import { FooterComponent } from './footer/footer.component';
 import { ExamplesComponent } from './examples/examples.component';
+import { PipeComponent } from './pipe/pipe.component';
 
 // componentler  use
 @NgModule({
@@ -15,7 +16,8 @@ import { ExamplesComponent } from './examples/examples.component';
     HeaderComponent,
     MainComponent,
     FooterComponent,
-    ExamplesComponent
+    ExamplesComponent,
+    PipeComponent
   ],
   imports: [
     BrowserModule

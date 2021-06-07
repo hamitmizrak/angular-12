@@ -1,0 +1,23 @@
+<p>{{ adi }}</p>
+<p>{{ adi | uppercase }}</p>
+<p>{{ adi | lowercase }}</p>
+<p>{{ adi | titlecase }}</p>
+<hr>
+<p>{{ tarih }}</p>
+<p>{{ tarih | date:'shortTime' }}</p>
+<p>{{ tarih | date:'fullDate' }}</p>
+<p>{{ tarih | date:'d/M/y' }}</p>
+<hr />
+<mark><i> {{pi }} </i></mark> <br />
+<mark><i> {{pi | number:'1.0-4'}} </i></mark><br />
+<mark><i> {{pi | number:'3.0-1'}} </i></mark><br />
+<hr />
+<strong>{{para}}</strong><br />
+<strong>{{para | currency:'TR ':false}}</strong><br />
+<hr />
+<small>{{yuzde}}</small><br />
+<small>{{yuzde | percent:'2.3-5'}}</small><br />
+<hr />
+<h4 *ngFor="let item of dizi2 | slice:1:4 " >{{dizi2}}</h4>
+<hr />
+<h4>{{dizi1 | slice: 0:10}}</h4>
