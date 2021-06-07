@@ -10,6 +10,9 @@ import { FooterComponent } from './footer/footer.component';
 import { ExamplesComponent } from './examples/examples.component';
 import { OnewayComponent } from './oneway/oneway.component';
 import { TwowayComponent } from './twoway/twoway.component';
+import { PipeComponent } from './pipe/pipe.component';
+import { CustomPipeComponent } from './custom-pipe/custom-pipe.component';
+import { ReturnvaluePipe } from './custom-pipe/returnvalue.pipe';
 
 
 
@@ -23,7 +26,10 @@ import { TwowayComponent } from './twoway/twoway.component';
     FooterComponent,
     ExamplesComponent,
     OnewayComponent,
-    TwowayComponent
+    TwowayComponent,
+    PipeComponent,
+    CustomPipeComponent,
+    ReturnvaluePipe
     
   ],
   imports: [
