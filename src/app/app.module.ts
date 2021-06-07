@@ -8,6 +8,9 @@ import { MainComponent } from './main/main.component';
 import { FooterComponent } from './footer/footer.component';
 import { ExamplesComponent } from './examples/examples.component';
 import { PipeComponent } from './pipe/pipe.component';
+import { OnewayComponent } from './oneway/oneway.component';
+
+
 
 // componentler  use
 @NgModule({
@@ -17,7 +20,8 @@ import { PipeComponent } from './pipe/pipe.component';
     MainComponent,
     FooterComponent,
     ExamplesComponent,
-    PipeComponent
+    PipeComponent,
+    OnewayComponent
   ],
   imports: [
     BrowserModule
