@@ -15,6 +15,7 @@ import { CustomPipeComponent } from './custom-pipe/custom-pipe.component';
 import { ReturnvaluePipe } from './custom-pipe/returnvalue.pipe';
 import { SearchTextPipe } from './custom-pipe/search-text.pipe';
 import { LowerTextPipe } from './custom-pipe/lower-text.pipe';
+import { ServisComponentComponent } from './servis-component/servis-component.component';
 
 
 
@@ -33,7 +34,8 @@ import { LowerTextPipe } from './custom-pipe/lower-text.pipe';
     CustomPipeComponent,
     ReturnvaluePipe,
     SearchTextPipe,
-    LowerTextPipe
+    LowerTextPipe,
+    ServisComponentComponent
     
   ],
   imports: [
