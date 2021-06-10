@@ -16,6 +16,7 @@ import { ReturnvaluePipe } from './custom-pipe/returnvalue.pipe';
 import { SearchTextPipe } from './custom-pipe/search-text.pipe';
 import { LowerTextPipe } from './custom-pipe/lower-text.pipe';
 import { ServisComponentComponent } from './servis-component/servis-component.component';
+import { RxjsComponent } from './rxjs/rxjs.component';
 
 
 
@@ -35,7 +36,8 @@ import { ServisComponentComponent } from './servis-component/servis-component.co
     ReturnvaluePipe,
     SearchTextPipe,
     LowerTextPipe,
-    ServisComponentComponent
+    ServisComponentComponent,
+    RxjsComponent
     
   ],
   imports: [
