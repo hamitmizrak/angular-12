@@ -1,3 +1,4 @@
+import { FooterComponent } from './footer/footer.component';
 import { IndexComponent } from './index/index.component';
 import { ExamplesComponent } from './examples/examples.component';
 import { NgModule } from '@angular/core';
@@ -7,6 +8,8 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
 const appRoutes: Routes = [
   { path: 'router', component: RouterModule},
   { path: 'ornek',        component: ExamplesComponent },
+  { path: 'yonlendir',        component: RouterModule },
+  { path: 'footer',        component: FooterComponent },
   { path: 'index',        component: IndexComponent },
   { path: '',   redirectTo: 'index', pathMatch: 'full' },
   { path: '**', component: PageNotFoundComponent }
