@@ -20,9 +20,10 @@ import { LowerTextPipe } from './custom-pipe/lower-text.pipe';
 import { ServisComponentComponent } from './servis-component/servis-component.component';
 import { RxjsComponent } from './rxjs/rxjs.component';
 import { ApiAngularComponent } from './api-angular/api-angular.component';
+import { RouterComponent } from './router/router.component';
+import { IndexComponent } from './index/index.component';
 import { AppRoutingModule } from './app-routing.module';
-
-
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 
 // componentler  use
@@ -42,7 +43,10 @@ import { AppRoutingModule } from './app-routing.module';
     LowerTextPipe,
     ServisComponentComponent,
     RxjsComponent,
-    ApiAngularComponent
+    ApiAngularComponent,
+    RouterComponent,
+    IndexComponent,
+    PageNotFoundComponent
     
   ],
   imports: [
