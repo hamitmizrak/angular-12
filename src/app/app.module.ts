@@ -1,6 +1,8 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { FormsModule } from '@angular/forms';
+import { FormsModule } from '@angular/forms';  
+import { HttpClientModule} from '@angular/common/http';
+
 
 // componentler  import
 import { AppComponent } from './app.component';
@@ -17,6 +19,8 @@ import { SearchTextPipe } from './custom-pipe/search-text.pipe';
 import { LowerTextPipe } from './custom-pipe/lower-text.pipe';
 import { ServisComponentComponent } from './servis-component/servis-component.component';
 import { RxjsComponent } from './rxjs/rxjs.component';
+import { ApiAngularComponent } from './api-angular/api-angular.component';
+import { AppRoutingModule } from './app-routing.module';
 
 
 
@@ -37,12 +41,15 @@ import { RxjsComponent } from './rxjs/rxjs.component';
     SearchTextPipe,
     LowerTextPipe,
     ServisComponentComponent,
-    RxjsComponent
+    RxjsComponent,
+    ApiAngularComponent
     
   ],
   imports: [
     BrowserModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule,
+    AppRoutingModule
   ],
   providers: [],
   //AppComponent baslangic
