@@ -1,7 +1,7 @@
-class Register {
+export class Register {
   //Shift+Alt+f
   id: number=0;
-  adiSoyadi: string="";
+  adi: string="";
   email: string="";
   password: string="";
 }
