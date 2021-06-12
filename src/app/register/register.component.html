@@ -7,22 +7,19 @@
       <form #registerForm="ngForm" (ngSubmit)="registerAddForm(registerForm)"  >
         <div class="form-group mb-3">
           <input type="text" class="form-control p-2" placeholder="{{requiredName}}" required name="adi" id="adi"
-          #adi="ngModel" [(ngModel)]="register44.adi"
-          >
-          <small class="form-text text-danger " style="opacity:.8">{{requiredName}}</small>
+          #adi="ngModel" [(ngModel)]="register44.adi">
+          <small *ngIf="adi.invalid&&adi.dirty" class="form-text text-danger " style="opacity:.8">{{requiredName}}</small>
         </div>
         <div class="form-group mb-3">
           <input type="email" class="form-control p-2" placeholder="{{requiredEmail}}" required name="email" id="email"
-          #email="ngModel" [(ngModel)]="register44.email"
-          >
-          <small class="form-text text-danger " style="opacity:.8">{{requiredEmail}}</small>
+          #email="ngModel" [(ngModel)]="register44.email">
+          <small *ngIf="email.invalid "  class="form-text text-danger " style="opacity:.8">{{requiredEmail}}</small>
         </div>
 
         <div class="form-group mb-3">
-          <input type="password" class="form-control p-2" placeholder="{{requiredPassword}}" required name="password" id="password"
-          #password="ngModel" [(ngModel)]="register44.password"
-          >
-          <small class="form-text text-danger " style="opacity:.8">{{requiredPassword}}</small>
+          <input type="password" class="form-control p-2" placeholder="{{requiredPassword}}" required="required" name="password" id="password"
+          #password="ngModel" [(ngModel)]="register44.password" >
+          <small *ngIf="password.invalid"  class="form-text text-danger " style="opacity:.8">{{requiredPassword}}</small>
         </div>
 
         <button type="reset" class="btn btn-danger btn-lg p-2 text-uppercase " style="margin-right:3%">Temizle</button>
