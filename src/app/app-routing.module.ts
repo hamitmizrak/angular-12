@@ -1,3 +1,4 @@
+import { RegisterComponent } from './register/register.component';
 import { FooterComponent } from './footer/footer.component';
 import { IndexComponent } from './index/index.component';
 import { ExamplesComponent } from './examples/examples.component';
@@ -11,6 +12,7 @@ const appRoutes: Routes = [
   { path: 'yonlendir',        component: RouterModule },
   { path: 'footer',        component: FooterComponent },
   { path: 'index',        component: IndexComponent },
+  { path: 'register',   component:RegisterComponent},
   { path: '',   redirectTo: 'index', pathMatch: 'full' },
   { path: '**', component: PageNotFoundComponent }
 ];

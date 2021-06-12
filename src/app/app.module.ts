@@ -24,6 +24,7 @@ import { RouterComponent } from './router/router.component';
 import { IndexComponent } from './index/index.component';
 import { AppRoutingModule } from './app-routing.module';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { RegisterComponent } from './register/register.component';
 
 
 // componentler  use
@@ -46,7 +47,8 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
     ApiAngularComponent,
     RouterComponent,
     IndexComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    RegisterComponent
     
   ],
   imports: [
