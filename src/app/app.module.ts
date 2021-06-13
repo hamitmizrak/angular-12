@@ -25,6 +25,7 @@ import { IndexComponent } from './index/index.component';
 import { AppRoutingModule } from './app-routing.module';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { RegisterComponent } from './register/register.component';
+import { TodoListComponent } from './todo-list/todo-list.component';
 
 
 // componentler  use
@@ -48,7 +49,8 @@ import { RegisterComponent } from './register/register.component';
     RouterComponent,
     IndexComponent,
     PageNotFoundComponent,
-    RegisterComponent
+    RegisterComponent,
+    TodoListComponent
     
   ],
   imports: [

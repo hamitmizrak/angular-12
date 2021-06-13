@@ -1,3 +1,4 @@
+import { TodoListComponent } from './todo-list/todo-list.component';
 import { RegisterComponent } from './register/register.component';
 import { FooterComponent } from './footer/footer.component';
 import { IndexComponent } from './index/index.component';
@@ -13,6 +14,7 @@ const appRoutes: Routes = [
   { path: 'footer',        component: FooterComponent },
   { path: 'index',        component: IndexComponent },
   { path: 'register',   component:RegisterComponent},
+  { path: 'todoList',   component:TodoListComponent},
   { path: '',   redirectTo: 'index', pathMatch: 'full' },
   { path: '**', component: PageNotFoundComponent }
 ];

@@ -1,0 +1,33 @@
+<div class="container ml-auto">
+  <div class="row">
+
+    <h2 class="text-center mb-2 text-uppercase">Yapılacak işler</h2>
+
+    <div class="col-md-1"></div>
+    <div class="col-md-9">
+        <input type="text" class="form-control p-1" placeholder=" {{listePlaceHolder}}" required
+        [(ngModel)]="product.adi"
+         />
+    </div>
+    <div class="col-md-1" style="margin-left:.5%">
+      <button class="btn btn-primary  p-1" (click)="addList()">{{listeEkle}}</button></div>
+    <div class="col-md-1"></div>
+    <div class="col-md-10">
+      <div class="list-group mt-3 ">
+        <div class="row">
+           
+               <div class="col-md-12"> 
+              <div class="list-group-item p-2"
+              *ngFor="let item of productDizisi"
+              >{{item.adi}} -{{item.tarih | date:'short'}}
+              
+              <button style="margin-left:94%" class="btn btn-danger p-2" (click)="deleteList(item)"> {{sil}}</button>
+             
+            </div>
+            
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

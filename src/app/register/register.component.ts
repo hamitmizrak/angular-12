@@ -22,7 +22,8 @@ export class RegisterComponent implements OnInit {
     alertify.success(form.value.adi);
     alertify.success(form.value.email);
     alertify.error(form.value.password);
-    console.log(form.value.adi);
+    console.log(form.value.adi+" "+form.value.email+" "+form.value.password);
+    alert(form.value.adi+" "+form.value.email+" "+form.value.password);
   }
 
   constructor() {}
